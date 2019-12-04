@@ -35,7 +35,8 @@ body {
     height: auto;
     z-index: -100;
     transform: translateX(-50%) translateY(-50%);
-	background: url('../img/bangkok-city.jpg') no-repeat;
+	background: url() no-repeat;
+    background-color: #d7f2f5;
 	background-size: cover;
 	transition: 1s opacity;
 }
@@ -52,7 +53,9 @@ a:focus {
     color: #ebb434;
 	text-decoration: none;
 	outline: none;
-    text-shadow: 1px 1px black;
+    font-weight: bolder;
+    border-width: 0;
+    background-color: #007eb0;
 }
 
 .tm-section-margin-t { margin-top: 0px; }
@@ -302,9 +305,12 @@ button:focus { outline: none; }
 }
 
 .tm-link{
-    color: #007eb0;
+    color: #287999;
     font-size: 10;
-    text-shadow: 1px 1px black;
+    border: 0px solid black;
+    border-radius: 5px;
+    padding: 2px;
+    background-color: #cf9e2d;
 }
 
 .tm-contact-container { max-width: 1150px; }
